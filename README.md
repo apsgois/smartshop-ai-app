@@ -1,77 +1,124 @@
-<h1>Smart Shop IA</h1>
+# SmartShop AI App
 
-<p>A presente dissertação tem como objetivo a apresentação de um aplicativo desenvolvido
-com a finalidade de aprimorar as promoções oferecidas por supermercados locais em
-cidades de menor porte. Este aplicativo utiliza a inteligência artificial (IA) para analisar os
-hábitos de compra dos consumidores e, com base nessas informações, apresentar ofertas
-personalizadas de acordo com suas preferências.
-A metodologia de funcionamento do aplicativo é concebida de maneira a ser simples e de
-fácil compreensão. No momento do cadastro, os clientes serão solicitados a fornecer suas
-preferências de compra e a selecionar os supermercados locais que costumam frequentar.
-A partir desse ponto, ao realizar suas compras, os clientes utilizarão o aplicativo para
-registrar os produtos adquiridos. A IA do aplicativo será então acionada para identificar
-padrões de compra e, subsequentemente, gerar promoções personalizadas para cada
-cliente.
-Smart Shop IA é uma IA de última geração, alimentada por algoritmos de aprendizado de
-máquina. Ela é projetada para coletar e analisar uma ampla variedade de dados, incluindo
-preços de produtos em diferentes supermercados, preferências pessoais do usuário,
-histórico de comprasl.
-O que torna a OptimAI-Mart verdadeiramente única é a capacidade de otimização baseada
-em parâmetros, permitindo que os usuários personalizem suas preferências e prioridades,
-criando assim recomendações altamente personalizadas e relevantes para suas
-necessidades individuais.
-A IA desenvolvida tem o potencial de ter impactos significativos em diversas áreas.
-Economicamente, ela pode ajudar os consumidores a economizar dinheiro, reduzir o
-desperdício de alimentos e apoiar a concorrência justa no mercado. Socialmente, torna as
-compras mais acessíveis e convenientes para uma variedade de públicos. Ambientalmente,
-ao evitar compras desnecessárias, pode contribuir para a redução do desperdício e da
-pegada de carbono.</p>
+A **Flutter mobile application prototype** developed for FETIN as part of the SmartShop AI project.
 
-<h2>Pré-requisitos</h2>
+SmartShop AI explores the concept of an intelligent shopping assistant capable of using customer preferences and shopping behavior to provide more personalized product offers.
 
-<p>Antes de começar, verifique se você atende aos seguintes requisitos:</p>
+## 💡 Project Overview
 
-<ul>
-  <li><a href="https://flutter.dev/">Flutter</a> deve estar instalado em seu sistema. Siga as <a href="https://flutter.dev/docs/get-started/install">instruções de instalação do Flutter</a> para instalá-lo.</li>
-  <li><a href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a> deve estar instalado em seu sistema. Certifique-se de ter a <a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter">extensão do Flutter</a> instalada no VSCode.</li>
-</ul>
+The project was created to explore how mobile applications and Artificial Intelligence concepts could improve the shopping experience in local supermarkets.
 
-<h2>Instalação</h2>
+Users can provide information about their shopping preferences and the supermarkets they frequently visit.
 
-<p>Para instalar e executar este aplicativo em seu sistema, siga estas etapas simples:</p>
+The proposed system can then use shopping history and user preferences to support personalized recommendations and promotions.
 
-<ol>
-  <li>Clone este repositório:</li>
-</ol>
+## 📱 Application Concept
 
-<pre><code>git clone [https://github.com/apsgois/app_SmartShopIA.git]
-</code></pre>
+SmartShop AI was designed around a simple shopping workflow:
 
-<p>Substitua <code>apsgois</code> pelo seu nome de usuário no GitHub e <code>app_SmartShopIA</code> pelo nome do repositório.</p>
+```text
+User Preferences
+       │
+       ▼
+Favorite Supermarkets
+       │
+       ▼
+Shopping Activity
+       │
+       ▼
+Purchase History
+       │
+       ▼
+Data Analysis
+       │
+       ▼
+Personalized Offers
+```
 
-<ol start="2">
-  <li>Abra o terminal e navegue até o diretório do projeto:</li>
-</ol>
+The goal is to make product discovery and promotions more relevant to each user.
 
-<pre><code>cd app_SmartShopIA
-</code></pre>
+## ✨ Main Features
 
-<ol start="3">
-  <li>Execute o seguinte comando para baixar as dependências do Flutter:</li>
-</ol>
+The application prototype explores features such as:
 
-<pre><code>flutter pub get
-</code></pre>
+* User preference registration
+* Supermarket selection
+* Product browsing
+* Shopping activity registration
+* Purchase history
+* Personalized offer concepts
+* Integration with the SmartShop AI backend
 
-<ol start="4">
-  <li>Agora, você está pronto para executar o aplicativo. Certifique-se de que um emulador esteja em execução ou que seu dispositivo esteja conectado ao computador.</li>
-  <li>No terminal, execute o seguinte comando para iniciar o aplicativo:</li>
-</ol>
+## 🛠️ Technologies
 
-<pre><code>flutter run
-</code></pre>
+* Flutter
+* Dart
+* Mobile Development
+* REST API Integration
 
-<p>Isso iniciará o aplicativo em seu dispositivo ou emulador.</p>
+## 🏗️ Project Architecture
+
+SmartShop AI is divided into two main repositories:
+
+### Mobile Application
+
+`smartshop-ai-app`
+
+Flutter application responsible for the user interface and shopping experience.
+
+### Backend API
+
+`smartshop-ai-api`
+
+FastAPI backend responsible for product-related operations and application services.
+
+## 📂 Repository Structure
+
+```text
+.
+├── Imagens/
+├── smart_ia/
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+The Flutter application source code is located inside the `smart_ia/` directory.
+
+## 🚀 Getting Started
+
+Make sure Flutter is installed and properly configured.
+
+Install the project dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+An emulator or connected device is required to run the mobile application.
+
+## 🎯 Project Context
+
+SmartShop AI was developed as a prototype for **FETIN**, a technology and innovation fair.
+
+The project explored the use of mobile development, backend APIs, and Artificial Intelligence concepts to create a personalized shopping experience.
+
+## 📌 Project Status
+
+This repository represents an early prototype developed for demonstration purposes.
+
+The project is no longer actively developed, but it is maintained as part of my portfolio to document the original idea and implementation.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
 
 
 <h2>APP</h2>
